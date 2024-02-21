@@ -6,51 +6,61 @@
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
-    <!-- Header -->
-    <div class="bg-blue-300 flex items-center space-x-3">
-        <!-- Header - Menu - Left-->
-        <div class="mx-2">
-            <h4 class="text-lg font-medium">SereneHR</h4>
-        </div>
-        
-        <!-- Header - Menu - Center-->
-        <div class="flex bg-blue-100">
+<body class="relative">
+    <!-- Header - Navbar-->
+    <div class="fixed top-0 container flex content-center">
+        <div class="bg-slate-600 flex items-center space-x-3">
+            <!-- Header - Menu - Left-->
             <div class="mx-2">
-                <h4 class="text-lg font-medium">Fitur</h4>
+                <h4 class="text-lg font-medium px-3">SereneHR</h4>
             </div>
-            <div class="mx-2">
-                <h4 class="text-lg font-medium">Harga</h4>
+            
+            <!-- Header - Menu - Center-->
+            <div class="flex bg-blue-100 flex-auto justify-center">
+                <div class="mx-2">
+                    <h4 class="text-lg font-medium">Fitur</h4>
+                </div>
+                <div class="mx-2">
+                    <h4 class="text-lg font-medium">Harga</h4>
+                </div>
+                <div class="mx-2">
+                    <h4 class="text-lg font-medium">Tentang Kami</h4>
+                </div>
+                <div class="mx-2">
+                    <h4 class="text-lg font-medium">Hubungi Kami</h4>
+                </div>
             </div>
-            <div class="mx-2">
-                <h4 class="text-lg font-medium">Tentang Kami</h4>
+            <!-- Header - Menu - Right-->
+            <div class="flex p-2">
+                <div class="p-2 rounded-md border border-blue-700 hover:bg-blue-900 hover:shadow-xl">
+                    <h4 class="text-blue-700 font-semibold hover:text-white ">Log In</h4>
+                </div>
+                <div class="p-2 mx-2 bg-blue-700 rounded-md hover:bg-blue-900 hover:shadow-xl">
+                    <h4 class="text-white font-semibold">Coba Gratis</h4>
+                </div>
             </div>
-            <div class="mx-2">
-                <h4 class="text-lg font-medium">Hubungi Kami</h4>
-            </div>
-        </div>
-        <!-- Header - Menu - Right-->
-        <div class="flex p-2">
-            <div class="p-2 rounded-md border border-blue-700">
-                <h4 class="text-blue-700 font-semibold">Log In</h4>
-            </div>
-            <div class="p-2 mx-2 bg-blue-700 rounded-md">
-                <h4 class="text-white font-semibold">Coba Gratis</h4>
-            </div>
-        </div>
-        
+        </div>        
     </div>
-    <!-- Header -->
-    <div class="bg-blue-800">
-        <h1 class="text-2xl text-white font-bold p-2">SereneHR - Solusi HR Terpadu Anda</h1>
-        <h1 class="text-xl text-white font-bold p-2">Meringankan Proses HR Anda dengan Mudah</h1>
-        <h4>Log In</h4>
-        <h4>Coba Gratis</h4>
+    <!-- Header - Main -->
+    <div class="bg-center bg-cover h-screen w-screen flex items-center" style="background-image:url(/src/image/bg-header-darkBlue.jpg);">
+        <div class="container mx-auto text-center py-4">
+            <h1 class="text-5xl text-white font-bold  p-2">SereneHR - Solusi HR Terpadu Anda</h1>
+            <h1 class="text-2xl text-white font-semibold p-2">Meringankan Proses HR Anda dengan Mudah</h1>
+            <!-- Header - Main - CTA -->
+            <div class="flex items-center justify-center p-2 m-10">
+                <h4 class="bg-blue-50 text-lg text-blue-600 font-semibold border rounded-md shadow-lg text-center hover:bg-blue-900 hover:text-white hover:shadow-xl p-2 mx-2 w-48">Mulai Sekarang</h4>
+                <h4 class="bg-blue-600 text-white text-lg font-semibold rounded-md shadow-lg text-center hover:bg-blue-900 hover:shadow-xl p-2 mx-2 w-48">Coba Gratis</h4>
+            </div>
+        </div>
+        
+    
         
     </div>    
     <!-- Footer -->
-    <div class="bg-black p-5">
+    <div class="bg-black p-5 ">
         <h3 class="text-xl font-semibold text-white">SereneHR</h3>
+        <p class="text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate sint earum minus distinctio odio. Tempora perferendis fuga blanditiis optio minima, dolores ratione culpa totam est, omnis consequatur dicta sit tenetur dolorem soluta aliquid. Dolore dicta voluptatibus reprehenderit delectus, ex, rerum id fuga illo corrupti quisquam quam perspiciatis asperiores repellendus veniam velit saepe aspernatur maxime natus. 
+            Saepe modi iure, nisi veritatis sequi voluptatibus sunt ab adipisci fugit iusto voluptates eius necessitatibus aliquid blanditiis nobis et unde eos odit molestiae dolore, nihil eligendi magnam eaque doloremque? Quo accusantium, suscipit vel similique omnis quos ullam, dicta dignissimos vitae pariatur sed! Doloremque, repellat exercitationem.</p>
     </div>
 </body>
 </html>
