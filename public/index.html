@@ -9,31 +9,31 @@
 <body class="relative">
     <!-- Header - Navbar-->
     <div class="fixed top-0">
-        <div class="bg-white bg-opacity-20 px-5 flex items-center space-x-3 justify-center w-screen">
+        <div class="bg-black bg-opacity-20 px-5 flex items-center space-x-3 justify-center w-screen">
             <!-- Header - Menu - Left-->
             <div class="mx-2">
-                <h4 class="text-lg font-medium px-3">SereneHR</h4>
+                <h4 class="text-lg text-white font-medium hover:cursor-pointer px-3">SereneHR</h4>
             </div>
             
             <!-- Header - Menu - Center-->
-            <div class="flex flex-auto justify-center">
-                <div class="mx-2">
+            <div class="flex flex-auto justify-center text-white">
+                <div class="mx-2 hover:cursor-pointer">
                     <h4 class="text-lg font-medium">Fitur</h4>
                 </div>
                 <div class="mx-2">
-                    <h4 class="text-lg font-medium">Harga</h4>
+                    <h4 class="text-lg font-medium hover:cursor-pointer">Harga</h4>
                 </div>
                 <div class="mx-2">
-                    <h4 class="text-lg font-medium">Tentang Kami</h4>
+                    <h4 class="text-lg font-medium hover:cursor-pointer">Tentang Kami</h4>
                 </div>
                 <div class="mx-2">
-                    <h4 class="text-lg font-medium">Hubungi Kami</h4>
+                    <h4 class="text-lg font-medium hover:cursor-pointer">Hubungi Kami</h4>
                 </div>
             </div>
             <!-- Header - Menu - Right-->
             <div class="flex p-2">
-                <div class="p-2 rounded-md border border-blue-700 hover:bg-blue-900 shadow-md hover:shadow-xl hover:cursor-pointer">
-                    <h4 class="text-blue-700 font-semibold hover:text-white ">Log In</h4>
+                <div class="p-2 rounded-md border border-white hover:bg-blue-900 shadow-md hover:shadow-xl hover:cursor-pointer">
+                    <h4 class="text-white font-semibold">Log In</h4>
                 </div>
                 <div class="p-2 mx-2 bg-blue-700 rounded-md shadow-md hover:bg-blue-900 hover:shadow-xl hover:cursor-pointer">
                     <h4 class="text-white font-semibold">Coba Gratis</h4>
@@ -42,29 +42,90 @@
         </div>        
     </div>
     <!-- Header - Main -->
-    <div class="bg-center bg-cover h-screen w-screen flex items-center" style="background-image:url(/src/image/bg-header-darkBlue.jpg);">
+    <div class="bg-center bg-cover h-screen flex items-center" style="background-image:url(/src/image/bg-header-darkBlue.jpg);">
         <div class="container mx-auto text-center py-4">
             <h1 class="text-5xl text-white font-bold  p-2">SereneHR - Solusi HR Terpadu Anda</h1>
             <h1 class="text-2xl text-white font-semibold p-2">Meringankan Proses HR Anda dengan Mudah</h1>
             <!-- Header - Main - CTA -->
             <div class="flex items-center justify-center p-2 m-10">
-                <h4 class="bg-blue-50 text-lg text-blue-600 font-semibold border rounded-md shadow-lg text-center hover:bg-blue-900 hover:text-white hover:shadow-xl p-2 mx-2 w-48">Mulai Sekarang</h4>
-                <h4 class="bg-blue-600 text-white text-lg font-semibold rounded-md shadow-lg text-center hover:bg-blue-900 hover:shadow-xl p-2 mx-2 w-48">Coba Gratis</h4>
+                <h4 class="bg-blue-50 text-lg text-blue-600 font-semibold border rounded-md shadow-lg text-center hover:bg-blue-900 hover:text-white hover:shadow-xl hover:cursor-pointer p-2 mx-2 w-48">Mulai Sekarang</h4>
+                <h4 class="bg-blue-600 text-white text-lg font-semibold rounded-md shadow-lg text-center hover:bg-blue-900 hover:shadow-xl hover:cursor-pointer p-2 mx-2 w-48">Coba Gratis</h4>
             </div>
         </div>        
     </div>    
 
-    <!-- -->
-    <div class="bg-slate-400 p-2">
-        <div class="bg-slate-100">
-            <h1>Manajemen Data Karyawan</h1>
-            <p>SereneHR memungkinkan Anda untuk dengan mudah mengelola informasi lengkap tentang karyawan, termasuk data pribadi, riwayat pekerjaan, dan dokumen-dokumen terkait.</p>
+    <!-- Fitur -->
+    <div id="fitur" class="">
+        <div class="bg-blue-400 py-10">
+            <h1 class="text-2xl font-semibold text-center text-white">Fitur</h1>
         </div>
-        <!-- Fitur - Main - CTA -->
-        <div class="flex items-center justify-center ">
-            <h4 class="bg-blue-50 text-lg text-blue-600 font-semibold border rounded-md shadow-lg text-center hover:bg-blue-900 hover:text-white hover:shadow-xl p-2 mx-2 w-48">Mulai Sekarang</h4>
-            <h4 class="bg-blue-600 text-white text-lg font-semibold rounded-md shadow-lg text-center hover:bg-blue-900 hover:shadow-xl p-2 mx-2 w-48">Coba Gratis</h4>
+        <!-- Fitur - Manajemen Data Karyawan -->
+        <div class="bg-blue-400 p-2 md:flex items-center gap-2 px-20 justify-center py-20">
+            <div class="py-10 max-w-lg">
+                <h1 class="text-3xl text-white font-semibold my-5 px-5">Manajemen Data Karyawan</h1>
+                <p class="text-white my-5 px-5">SereneHR memungkinkan Anda untuk dengan mudah mengelola informasi lengkap tentang karyawan, termasuk data pribadi, riwayat pekerjaan, dan dokumen-dokumen terkait.</p>
+                <!-- Fitur - Main - CTA -->
+                <div class="flex items-center justify-center ">
+                    <h4 class="bg-blue-50 text-lg text-blue-600 font-semibold border rounded-md shadow-lg text-center hover:bg-blue-900 hover:text-white hover:shadow-xl hover:cursor-pointer p-2 mx-2 w-48">Mulai Sekarang</h4>
+                    <h4 class="bg-blue-600 text-white text-lg font-semibold rounded-md shadow-lg text-center hover:bg-blue-900 hover:shadow-xl hover:cursor-pointer p-2 mx-2 w-48">Coba Gratis</h4>
+                </div>
+            </div>
+            <div class="max-w-lg">
+                <img src="/src/image/Fitur Management Data Karyawan.svg" alt="Manajemen Data Karyawan">
+            </div> 
         </div>
+        <!-- Fitur - Penggajian Otomatis -->
+        <div class="bg-white p-2 flex items-center gap-2 px-20 justify-center py-20">
+            <div class="max-w-lg">
+                <img src="/src/image/Fitur Penggajian Otomatis.svg" alt="Penggajian Otomatis">
+            </div> 
+            <div class="py-10 max-w-lg">
+                <h1 class="text-3xl  font-semibold my-5 px-5">Penggajian Otomatis</h1>
+                <p class=" my-5 px-5">Dengan fitur penggajian otomatis, SereneHR menghitung gaji karyawan secara akurat berdasarkan parameter yang telah ditetapkan, termasuk potongan, bonus, dan tunjangan.</p>
+                <!-- Fitur - Main - CTA -->
+                <div class="flex items-center justify-center ">
+                    <h4 class="bg-blue-50 text-lg text-blue-600 font-semibold border rounded-md shadow-lg text-center hover:bg-blue-900 hover:text-white hover:shadow-xl hover:cursor-pointer p-2 mx-2 w-48">Mulai Sekarang</h4>
+                    <h4 class="bg-blue-600 text-white text-lg font-semibold rounded-md shadow-lg text-center hover:bg-blue-900 hover:shadow-xl hover:cursor-pointer p-2 mx-2 w-48">Coba Gratis</h4>
+                </div>
+            </div>
+        </div>
+        <!-- Fitur - Pengelolaan Absensi dan Cuti -->
+        <div class="bg-blue-400 p-2 md:flex items-center gap-2 px-20 justify-center py-20">
+            <div class="py-10 max-w-lg">
+                <h1 class="text-3xl text-white font-semibold my-5 px-5">Pengelolaan Absensi dan Cuti</h1>
+                <p class="text-white my-5 px-5">SereneHR memfasilitasi pelacakan absensi dan pengajuan cuti karyawan secara online, memudahkan proses pengelolaan kehadiran dan waktu kerja.
+                </p>
+                <!-- Fitur - Main - CTA -->
+                <div class="flex items-center justify-center ">
+                    <h4 class="bg-blue-50 text-lg text-blue-600 font-semibold border rounded-md shadow-lg text-center hover:bg-blue-900 hover:text-white hover:shadow-xl hover:cursor-pointer p-2 mx-2 w-48">Mulai Sekarang</h4>
+                    <h4 class="bg-blue-600 text-white text-lg font-semibold rounded-md shadow-lg text-center hover:bg-blue-900 hover:shadow-xl hover:cursor-pointer p-2 mx-2 w-48">Coba Gratis</h4>
+                </div>
+            </div>
+            <div class="max-w-lg">
+                <img src="/src/image/Fitur Pengelolaan Absensi dan Cuti.svg" alt="Pengelolaan Absensi dan Cuti">
+            </div> 
+        </div>
+        <!-- Fitur - Pelaporan dan Analisis -->
+        <div class="bg-white p-2 flex items-center gap-2 px-20 justify-center py-20">
+            <div class="max-w-lg">
+                <img src="/src/image/Fitur Pelaporan dan Analisis.svg" alt="Pelaporan dan Analisis">
+            </div> 
+            <div class="py-10 max-w-lg">
+                <h1 class="text-3xl  font-semibold my-5 px-5">Pelaporan dan Analisis</h1>
+                <p class=" my-5 px-5">SereneHR menyediakan berbagai laporan yang dapat disesuaikan dan analisis data yang mendalam tentang berbagai aspek SDM, membantu manajemen dalam pengambilan keputusan yang terinformasi.
+                </p>
+                <!-- Fitur - Main - CTA -->
+                <div class="flex items-center justify-center ">
+                    <h4 class="bg-blue-50 text-lg text-blue-600 font-semibold border rounded-md shadow-lg text-center hover:bg-blue-900 hover:text-white hover:shadow-xl hover:cursor-pointer p-2 mx-2 w-48">Mulai Sekarang</h4>
+                    <h4 class="bg-blue-600 text-white text-lg font-semibold rounded-md shadow-lg text-center hover:bg-blue-900 hover:shadow-xl hover:cursor-pointer p-2 mx-2 w-48">Coba Gratis</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Adds -->
+    <div>
+        <p>Download Now</p>
     </div>
     
     <!-- Footer -->
