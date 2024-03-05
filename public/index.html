@@ -10,7 +10,7 @@
 </head>
 <body class="relative">
     <!-- Header - Navbar-->
-    <div class="fixed top-0">
+    <div class="fixed top-0 z-10">
         <div class="bg-black bg-opacity-25 backdrop-blur-md md:py-5 md:space-x-3 md:flex md:items-center justify-between md:justify-center w-screen">
             <!-- Header - Menu - Left-->
             <div class="mx-2 hidden md:block">
@@ -32,11 +32,11 @@
 
             <!-- Header - Menu - Right-->
             <div class="md:flex p-2 hidden">
-                <div class="p-2 rounded-md border border-white hover:bg-blue-900 shadow-md hover:shadow-xl hover:cursor-pointer">
+                <div class="p-2 mx-2 rounded-md border border-white hover:bg-blue-900 shadow-md hover:shadow-xl hover:cursor-pointer">
                     <h4 class="text-white font-semibold">Log In</h4>
                 </div>
-                <div class="p-2 mx-2 bg-blue-700 rounded-md shadow-md hover:bg-blue-900 hover:shadow-xl hover:cursor-pointer">
-                    <h4 class="text-white font-semibold">Coba Gratis</h4>
+                <div class="p-2 mr-6 bg-blue-700 rounded-md shadow-md hover:bg-blue-900 hover:shadow-xl hover:cursor-pointer">
+                    <h4 class="text-white font-semibold ">Coba Gratis</h4>
                 </div>
             </div>
 
@@ -70,12 +70,9 @@
 
     <!-- Fitur -->
     <div id="fitur-div" class="">
-        <div class="bg-blue-400 md:py-10 pt-20">
-            <h1 class="text-3xl font-semibold text-center text-white">Fitur</h1>
-        </div>
         <!-- Fitur - Manajemen Data Karyawan -->
         <div class="bg-blue-400 p-2 md:flex md:items-center md:gap-2 mx-auto md:px-20 px-2 justify-center py-20">
-            <div class="py-10 max-w-lg mx-auto">
+            <div class="py-10 max-w-lg mx-auto md:mx-1">
                 <h1 class="text-3xl text-white font-semibold my-5 px-5 ">Manajemen Data Karyawan</h1>
                 <p class="text-white text-xl my-5 px-5">SereneHR memungkinkan Anda untuk dengan mudah mengelola informasi lengkap tentang karyawan, termasuk data pribadi, riwayat pekerjaan, dan dokumen-dokumen terkait.</p>
                 <!-- Fitur - Main - CTA -->
@@ -84,16 +81,18 @@
                     <h4 class="bg-blue-600 text-white text-lg font-semibold rounded-md shadow-lg text-center hover:bg-blue-900 hover:shadow-xl hover:cursor-pointer p-2 mx-2 md:w-48 w-40">Coba Gratis</h4>
                 </div>
             </div>
-            <div class="md:max-w-lg max-w-md px-3 mx-auto">
-                <img src="/src/image/Fitur Management Data Karyawan.svg" alt="Manajemen Data Karyawan">
+            <div class="md:max-w-lg max-w-md px-3 mx-auto md:mx-1">
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+                <dotlottie-player src="https://lottie.host/3f1ff56f-da8f-4e70-a0a9-f50fb8069c84/zdS2yizuMk.json" background="transparent" speed="0.5" style="" class="mx-auto max-w-lg" loop autoplay></dotlottie-player>
             </div> 
         </div>
         <!-- Fitur - Penggajian Otomatis -->
-        <div class="bg-white p-2 md:flex items-center gap-2 md:px-20 px-2 justify-center py-20">
-            <div class="md:max-w-lg max-w-md px-3 mx-auto">
-                <img src="/src/image/Fitur Penggajian Otomatis.svg" alt="Penggajian Otomatis">
+        <div class="bg-white p-2 md:flex md:items-center gap-2 md:px-20 px-2 md:justify-center py-20">
+            <div class="md:max-w-lg max-w-md px-3 mx-auto md:mx-1">
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+                <dotlottie-player src="https://lottie.host/775cc88d-3640-4f14-98ef-cb78367c203f/7LqEiG91Vd.json" background="transparent" speed="0.5" style="" class="mx-auto" loop autoplay></dotlottie-player>
             </div> 
-            <div class="py-10 max-w-lg mx-auto md:mx-2">
+            <div class="py-10 max-w-lg mx-auto md:mx-1">
                 <h1 class="text-3xl  font-semibold my-5 px-5">Penggajian Otomatis</h1>
                 <p class="text-xl my-5 px-5">Dengan fitur penggajian otomatis, SereneHR menghitung gaji karyawan secara akurat berdasarkan parameter yang telah ditetapkan, termasuk potongan, bonus, dan tunjangan.</p>
                 <!-- Fitur - Main - CTA -->
@@ -105,7 +104,7 @@
         </div>
         <!-- Fitur - Pengelolaan Absensi dan Cuti -->
         <div class="bg-blue-400 p-2 md:flex md:gap-2 md:items-center md:justify-center md:px-20 px-2 py-20">
-            <div class="py-10 max-w-lg mx-auto md:mx-2">
+            <div class="py-10 max-w-lg mx-auto md:mx-1">
                 <h1 class="text-3xl text-white font-semibold my-5 px-5">Pengelolaan Absensi dan Cuti</h1>
                 <p class="text-white text-xl my-5 px-5">SereneHR memfasilitasi pelacakan absensi dan pengajuan cuti karyawan secara online, memudahkan proses pengelolaan kehadiran dan waktu kerja.
                 </p>
@@ -115,16 +114,18 @@
                     <h4 class="bg-blue-600 text-white text-lg font-semibold rounded-md shadow-lg text-center hover:bg-blue-900 hover:shadow-xl hover:cursor-pointer p-2 mx-2 w-48">Coba Gratis</h4>
                 </div>
             </div>
-            <div class="md:max-w-lg max-w-md px-3 mx-auto">
-                <img src="/src/image/Fitur Pengelolaan Absensi dan Cuti.svg" alt="Pengelolaan Absensi dan Cuti">
+            <div class="md:max-w-lg max-w-md px-3 mx-auto md:mx-1">
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+                <dotlottie-player src="https://lottie.host/edf4da27-568a-4514-8f17-ec0a94c38ca8/s4vEmkUcZ8.json" background="transparent" speed="0.5" style="" class="mx-auto" loop autoplay></dotlottie-player>
             </div> 
         </div>
         <!-- Fitur - Pelaporan dan Analisis -->
         <div class="bg-white p-2 md:flex md:items-center md:justify-center md:px-20 px-2 gap-2 py-20">
-            <div class="md:max-w-lg max-w-md px-3 mx-auto">
-                <img src="/src/image/Fitur Pelaporan dan Analisis.svg" alt="Pelaporan dan Analisis">
+            <div class="md:max-w-lg max-w-md px-3 mx-auto md:mx-1">
+                <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
+                <dotlottie-player src="https://lottie.host/cdb6a857-05d1-43cc-8d61-4d03628f4fb3/1FvqWCUcLT.json" background="transparent" speed="0.5" style="" class="mx-auto" loop autoplay></dotlottie-player>
             </div> 
-            <div class="py-10 max-w-lg mx-auto md:mx-2">
+            <div class="py-10 max-w-lg mx-auto md:mx-1">
                 <h1 class="text-3xl font-semibold my-5 px-5">Pelaporan dan Analisis</h1>
                 <p class="text-xl my-5 px-5">SereneHR menyediakan berbagai laporan yang dapat disesuaikan dan analisis data yang mendalam tentang berbagai aspek SDM, membantu manajemen dalam pengambilan keputusan yang terinformasi.
                 </p>
@@ -156,47 +157,43 @@
             <div class="border border-blue-400 rounded-lg my-2 max-w-md mx-auto">
                 <h1 class="bg-blue-400 text-white md:py-6 py-10 text-center text-2xl font-semibold rounded-t-lg">Paket Dasar</h1>
                 <div class="px-2 py-2">
-                    <div class="flex gap-2 py-1">
-                        <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
-                        <p>Fitur Utama :</p>
-                    </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Manajemen Karyawan</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Pelacakan Waktu & Kehadiran</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Penggajian Dasar</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/close-circle-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Evaluasi Kinerja</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/close-circle-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Manajemen Pelatihan</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/close-circle-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Laporan Analisis HR</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/close-circle-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Manajemen Rekrutmen</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/close-circle-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Integrasi Sistem Lain</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/close-circle-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Pengaturan Penyesuaian Lanjutan</p>
                     </div>
-                    <div class="flex gap-2 py-1">
+                    <div class="flex gap-2 py-1 pl-3">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Dukungan Pelanggan: Email</p>
                     </div>
@@ -210,47 +207,43 @@
             <div class="border border-blue-800 rounded-lg my-2 max-w-md mx-auto">
                 <h1 class="bg-blue-800 text-white md:py-6 py-10 text-center text-2xl font-semibold rounded-t-lg">Paket Pro</h1>
                 <div class="px-2 py-2">
-                    <div class="flex gap-2 py-1">
-                        <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
-                        <p>Fitur Utama :</p>
-                    </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Manajemen Karyawan</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Pelacakan Waktu & Kehadiran</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Penggajian Dasar</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Evaluasi Kinerja</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Manajemen Pelatihan</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Laporan Analisis HR</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/close-circle-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Manajemen Rekrutmen</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/close-circle-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Integrasi Sistem Lain</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/close-circle-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Pengaturan Penyesuaian Lanjutan</p>
                     </div>
-                    <div class="flex gap-2 py-1">
+                    <div class="flex gap-2 py-1 pl-3">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Dukungan Pelanggan: Email</p> 
                     </div>
@@ -264,53 +257,45 @@
             <div class="border border-green-500 rounded-lg my-2 max-w-md mx-auto">
                 <h1 class="bg-green-500 text-white md:py-6 py-10 text-center text-2xl font-semibold rounded-t-lg">Paket Enterprise</h1>
                 <div class="px-2 py-2">
-                    <div class="flex gap-2 py-1">
-                        <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
-                        <p>Fitur Utama :</p>
-                    </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
-                        <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
-                        <p>Manajemen Karyawan</p>
-                    </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Pelacakan Waktu & Kehadiran</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Penggajian Dasar</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Evaluasi Kinerja</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Manajemen Pelatihan</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Laporan Analisis HR</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Manajemen Rekrutmen</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Integrasi Sistem Lain</p>
                     </div>
-                    <div class="flex gap-2 py-1 pl-7 items-start">
+                    <div class="flex gap-2 py-1 pl-3 items-start">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Pengaturan Penyesuaian Lanjutan</p>
                     </div>
-                    <div class="flex gap-2 py-1">
+                    <div class="flex gap-2 py-1 pl-3">
                         <img src="/src/icon/check-circle-1-svgrepo-com.svg" alt="" class="w-6 h-auto">
                         <p>Dukungan Pelanggan: Email</p>
                     </div>
                 </div>
                 <div class="p-2">
-                    <h1 class="bg-green-500 hover:bg-green-600 hover:cursor-pointer m-2 text-center py-2 rounded-lg shadow-lg text-white text-lg font-medium">Harga Khusus</h1>
+                    <h1 class="bg-green-500 hover:bg-green-600 hover:cursor-pointer m-2 text-center py-2 rounded-lg shadow-lg text-white text-lg font-medium">Hubungi Kami</h1>
                 </div> 
             </div> 
         </div>
@@ -318,7 +303,7 @@
 
     <!-- Tentang -->
     <div id="tentang-div" class="bg-white p-2 md:flex md:items-center md:justify-center gap-2 md:px-20 px-4 py-20">
-        <div class="py-10 md:max-w-lg">
+        <div class="py-10 md:max-w-lg mx-auto md:mx-1">
             <h1 class="text-3xl  font-semibold my-5 px-5">Tentang Kami</h1>
             <p class="text-xl my-5 px-5">SereneHR adalah platform HRIS (Human Resources Information System) yang menyediakan solusi lengkap untuk mengelola semua aspek sumber daya manusia secara efisien dan efektif. 
                 Dengan SereneHR, perusahaan dapat mengotomatiskan proses administrasi HR, termasuk manajemen data karyawan, penggajian, absensi, cuti, evaluasi kinerja, dan lebih banyak lagi.
@@ -335,7 +320,7 @@
                 <h4 class="bg-blue-600 text-white text-lg font-semibold rounded-md shadow-lg text-center hover:bg-blue-900 hover:shadow-xl hover:cursor-pointer p-2 mx-2 w-48">Coba Gratis</h4>
             </div>
         </div>
-        <div class="md:max-w-lg max-w-md mx-auto">
+        <div class="md:max-w-lg max-w-md mx-auto md:mx-1">
             <img src="/src/image/Tentang Kami.svg" alt="Pelaporan dan Analisis" class="mx-auto md:mx-2">
         </div> 
     </div>
