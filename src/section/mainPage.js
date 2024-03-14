@@ -14,8 +14,8 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div id="mainpage-div" className="relative">
-      <video ref={videoRef} src={BgVideo} autoPlay muted loop className="blur-background" />
+    <div id="mainpage-div" className="relative w-full h-screen">
+      <video ref={videoRef} src={BgVideo} autoPlay muted loop className="blur-background absolute top-0 left-0 w-full h-full object-cover" />
       <div className="absolute top-0 left-0 w-full h-full flex flex-col justify-center items-center">
         <div className="container mx-auto text-center text-white">
           <h1 className="animated-link text-5xl font-bold mb-4">SereneHR - Solusi HR Terpadu Anda</h1>
