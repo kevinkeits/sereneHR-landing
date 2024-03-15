@@ -6,7 +6,7 @@ const Fitur = () => {
     <div id="fitur-div" class="">
         {/* <!-- Fitur - Manajemen Data Karyawan --> */}
         <h1 class="bg-blue-600 flex items-center justify-center text-3xl text-white font-semibold pt-16">Fitur</h1>
-        <div class="bg-blue-600 p-2 md:flex md:items-center md:gap-2 mx-auto md:px-20 px-2 justify-center py-24">
+        <div class="bg-blue-600 p-2 md:flex md:items-center md:gap-2 mx-auto md:px-20 px-2 justify-center py-4">
             <div class="py-10 max-w-lg mx-auto md:mx-1">
                 <h1 class="text-3xl text-white font-semibold my-5 px-5 ">Manajemen Data Karyawan</h1>
                 <p class="text-white text-xl my-5 px-5">SereneHR memungkinkan Anda untuk dengan mudah mengelola informasi lengkap tentang karyawan, termasuk data pribadi, riwayat pekerjaan, dan dokumen-dokumen terkait.</p>

@@ -37,19 +37,19 @@ return (
 
         {/* <!-- Hamburg Menu --> */}
         {isOpen && ( 
-            <div id="menu-list" className="border-t-2 border-white backdrop-blur-md bg-black bg-opacity-15">
-                <div>
-                    <div className="flex items-center justify-center hover:cursor-pointer">
-                        <a href="#fitur-div" className="animated-link"><h4 className="text-lg font-medium text-white">Fitur</h4></a>
+            <div id="menu-list" className=" border-white bg-opacity-60 backdrop-blur-lg bg-black md:hidden drop-shadow-lg">
+                <div className="py-6">
+                    <div className="mx-6 hover:cursor-pointer py-4">
+                        <a href="#fitur-div" className="animated-link"><h4 className="text-lg font-small text-white">Fitur</h4></a>
                     </div>
-                    <div className="flex items-center justify-center">
-                        <a href="#harga-div" className="animated-link"><h4 className="text-lg font-medium hover:cursor-pointer text-white">Harga</h4></a>
+                    <div className="mx-6 py-4">
+                        <a href="#harga-div" className="animated-link"><h4 className="text-lg font-small hover:cursor-pointer text-white">Harga</h4></a>
                     </div>
-                    <div className="flex items-center justify-center">
-                        <a href="#tentang-div" className="animated-link"><h4 className="text-lg font-medium hover:cursor-pointer text-white">Tentang Kami</h4></a>
+                    <div className="mx-6 py-4">
+                        <a href="#tentang-div" className="animated-link"><h4 className="text-lg font-small hover:cursor-pointer text-white">Tentang Kami</h4></a>
                     </div>
-                    <div className="flex items-center justify-center">
-                        <a href="#faq-div" className="animated-link"><h4 className="text-lg font-medium hover:cursor-pointer text-white">FAQ</h4></a>
+                    <div className="mx-6 py-4   ">
+                        <a href="#faq-div" className="animated-link"><h4 className="text-lg font-small hover:cursor-pointer text-white">FAQ</h4></a>
                     </div>
                 </div>
             </div>
