@@ -34,4 +34,21 @@
   .blur-background {
     filter: blur(4px);
   }
+
+  .blur-background {
+    filter: blur(4px);
+  }
+  
+  .logoInvert {
+    filter: invert(20%) sepia(89%) saturate(2273%) hue-rotate(217deg) brightness(104%) contrast(96%);
+  }
+
+  #Navbar {
+    transition: background-color 0.5s ease; /* Add transitions for other properties if needed */
+  }
+  
+  .scrolled {
+    background-color: #fff; /* Change to the desired background color */
+  }
+  
   
