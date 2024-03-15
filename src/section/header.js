@@ -43,7 +43,6 @@ return (
             <a href="#faq-div" ><h4 className="text-lg font-medium hover:cursor-pointer">FAQ</h4></a>
           </div>
         </div>
-
         <div className="md:flex text-white hidden">
             <div id="borderColor" className={`p-2 px-6 rounded-md hover:bg-blue-800 hover:text-white hover:shadow-xl hover:cursor-pointer mx-2 ${scrolled ? 'text-black' : ''}`}>
                 <h4 id="headerLeft" className="font-semibold">Log In</h4>
