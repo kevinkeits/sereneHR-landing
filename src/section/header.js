@@ -25,9 +25,9 @@ useEffect(() => {
   
 return (
     <div id="Navbar" className={`fixed z-10 top-0 w-screen ${scrolled ? 'scrolled' : ''}`}>
-      <div className="flex md:justify-center justify-between items-center font-semibold mx-auto max-w-screen-lg border-b">
+      <div className="flex md:justify-center justify-between items-center font-semibold mx-auto max-w-screen-lg border-b py-1">
         <div className={`${scrolled ? 'filter-effect' : ''}`}>
-            <a href="#mainpage-div"><img src={logo} alt="Menu" className="hover:cursor-pointer h-20" style={{ filter: scrolled ? 'invert(70%) sepia(89%) saturate(2273%) hue-rotate(217deg) brightness(104%) contrast(96%)' : 'none' }}></img></a>
+            <a href="#mainpage-div"><img src={logo} alt="Menu" className="hover:cursor-pointer h-16" style={{ filter: scrolled ? 'invert(70%) sepia(89%) saturate(2273%) hue-rotate(217deg) brightness(104%) contrast(96%)' : 'none' }}></img></a>
         </div>
         <div className="md:flex md:flex-auto md:justify-center text-white hidden">
           <div id="fontHeader" className={`mx-6 hover:cursor-pointer ${scrolled ? 'text-black' : ''}`}>

@@ -21,8 +21,8 @@ const About = () => {
               <h4 class="bg-blue-600 text-white text-lg font-semibold rounded-md shadow-lg text-center hover:bg-blue-900 hover:shadow-xl hover:cursor-pointer p-2 mx-2 w-48">Coba Gratis</h4>
           </div>
       </div>
-      <div class="md:max-w-lg max-w-md mx-auto md:mx-1">
-        <img src={backgroundImage} alt="Description" class="mx-auto md:mx-2"/>
+      <div class="md:max-w-lg lg:max-w-md mx-auto md:mx-1">
+        <img src={backgroundImage} alt="Description" class="mx-auto md:mx-2 "/>
       </div> 
   </div>
   );
