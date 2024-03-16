@@ -5,7 +5,8 @@ const Faq = () => {
     <div id="faq-div" class="md:flex md:gap-4 md:px-20 px-6 py-8 md:justify-center">
       <div class="w-56 text-center md:py-4 py-8 mx-auto md:mx-6">
           <h1 class="text-2xl lg:text-3xl font-bold">FAQ</h1>
-          <p class="text-lg md:text-lg">Frequently Ask Question</p>
+          <p className='text-2xl m-2 font-bold'>Pertanyaan Umum</p>
+          <p className='m-2 text-lg'>Berikut adalah beberapa pertanyaan yang paling umum yang kami terima.</p>
       </div>
       <div class="md:max-w-xl py-2">
           <h2 class="text-2xl font-semibold py-2">Apa itu SereneHR?</h2>
