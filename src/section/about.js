@@ -3,9 +3,9 @@ import backgroundImage from '../image/jungon-kim.png';
 
 const About = () => {
   return (
-    <div id="tentang-div" class="bg-white p-2 md:flex md:items-center md:justify-center gap-2 md:px-20 px-4 py-20">
+    <div id="tentang-div" class="bg-white p-2 md:flex md:items-center md:justify-center gap-2 md:px-20 px-4 py-8">
       <div class="py-10 md:max-w-lg mx-auto md:mx-1">
-          <h1 class="text-3xl font-semibold my-5 px-5">Tentang Kami</h1>
+          <h1 class="text-3xl font-bold my-5 px-5">Tentang Kami</h1>
           <p class="text-xl my-5 px-5">SereneHR adalah platform HRIS (Human Resources Information System) yang menyediakan solusi lengkap untuk mengelola semua aspek sumber daya manusia secara efisien dan efektif. 
               Dengan SereneHR, perusahaan dapat mengotomatiskan proses administrasi HR, termasuk manajemen data karyawan, penggajian, absensi, cuti, evaluasi kinerja, dan lebih banyak lagi.
           </p>

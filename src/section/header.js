@@ -25,22 +25,22 @@ useEffect(() => {
   
 return (
     <div id="Navbar" className={`fixed z-10 top-0 w-screen ${scrolled ? 'scrolled' : ''}`}>
-      <div className="flex md:justify-center justify-between items-center font-semibold mx-auto max-w-screen-xl border-b">
+      <div className="flex md:justify-center justify-between items-center font-semibold mx-auto max-w-screen-lg border-b">
         <div className={`${scrolled ? 'filter-effect' : ''}`}>
-            <a href="#mainpage-div"><img src={logo} alt="Menu" className="hover:cursor-pointer h-24" style={{ filter: scrolled ? 'invert(70%) sepia(89%) saturate(2273%) hue-rotate(217deg) brightness(104%) contrast(96%)' : 'none' }}></img></a>
+            <a href="#mainpage-div"><img src={logo} alt="Menu" className="hover:cursor-pointer h-20" style={{ filter: scrolled ? 'invert(70%) sepia(89%) saturate(2273%) hue-rotate(217deg) brightness(104%) contrast(96%)' : 'none' }}></img></a>
         </div>
         <div className="md:flex md:flex-auto md:justify-center text-white hidden">
-          <div id="fontHeader" className={`mx-10 hover:cursor-pointer ${scrolled ? 'text-black' : ''}`}>
-            <a href="#fitur-div" ><h4 className="text-lg font-medium">Fitur</h4></a>
+          <div id="fontHeader" className={`mx-6 hover:cursor-pointer ${scrolled ? 'text-black' : ''}`}>
+            <a href="#fitur-div" ><h4 className="text-md font-normal">Fitur</h4></a>
           </div>
-          <div id="fontHeader" className={`mx-4 hover:cursor-pointer ${scrolled ? 'text-black' : ''}`}>
-            <a href="#harga-div" ><h4 className="text-lg font-medium hover:cursor-pointer">Harga</h4></a>
+          <div id="fontHeader" className={`mx-6 hover:cursor-pointer ${scrolled ? 'text-black' : ''}`}>
+            <a href="#harga-div" ><h4 className="text-md font-normal hover:cursor-pointer">Harga</h4></a>
           </div>
-          <div id="fontHeader" className={`mx-4 hover:cursor-pointer ${scrolled ? 'text-black' : ''}`}>
-            <a href="#tentang-div" ><h4 className="text-lg font-medium hover:cursor-pointer">Tentang Kami</h4></a>
+          <div id="fontHeader" className={`mx-6 hover:cursor-pointer ${scrolled ? 'text-black' : ''}`}>
+            <a href="#tentang-div" ><h4 className="text-md font-normal hover:cursor-pointer">Tentang Kami</h4></a>
           </div>
-          <div id="fontHeader" className={`mx-4 hover:cursor-pointer ${scrolled ? 'text-black' : ''}`}>
-            <a href="#faq-div" ><h4 className="text-lg font-medium hover:cursor-pointer">FAQ</h4></a>
+          <div id="fontHeader" className={`mx-6 hover:cursor-pointer ${scrolled ? 'text-black' : ''}`}>
+            <a href="#faq-div" ><h4 className="text-md font-normal hover:cursor-pointer">FAQ</h4></a>
           </div>
         </div>
         <div className="md:flex text-white hidden">
@@ -51,27 +51,27 @@ return (
                 <h4 id="headerLeft" className="font-semibold ">Coba Gratis</h4>
             </div>
         </div>
-        <img src={hamburgmenu} alt="Menu" onClick={() => setIsOpen(!isOpen)} className="h-6 w-10 mx-6 block md:hidden hover:cursor-pointer"/>
+        <img src={hamburgmenu} alt="Menu" onClick={() => setIsOpen(!isOpen)} className="h-6 w-10 mx-6 block md:hidden hover:cursor-pointer" style={{ filter: scrolled ? 'invert(70%) sepia(89%) saturate(2273%) hue-rotate(217deg) brightness(104%) contrast(96%)' : 'none' }}></img>
       </div>
 
       {/* Hamburg Menu */}
       {isOpen && (
-        <div id="menu-list" className="border-white bg-opacity-60 backdrop-blur-lg bg-black md:hidden drop-shadow-lg">
-          <div className="py-6">
-            <div className="mx-4 hover:cursor-pointer py-4">
-              <a href="#fitur-div" className="animated-link"><h4 className="text-lg font-small text-white">Fitur</h4></a>
-            </div>
-            <div className="mx-4 py-4">
-              <a href="#harga-div" className="animated-link"><h4 className="text-lg font-small hover:cursor-pointer text-white">Harga</h4></a>
-            </div>
-            <div className="mx-4 py-4">
-              <a href="#tentang-div" className="animated-link"><h4 className="text-lg font-small hover:cursor-pointer text-white">Tentang Kami</h4></a>
-            </div>
-            <div className="mx-4 py-4   ">
-              <a href="#faq-div" className="animated-link"><h4 className="text-lg font-small hover:cursor-pointer text-white">FAQ</h4></a>
+          <div id="menu-list" className="border-white bg-opacity-60 backdrop-blur-lg bg-black md:hidden drop-shadow-lg">
+            <div className="py-6">
+              <div className="mx-4 hover:cursor-pointer py-4">
+                <a href="#fitur-div" className="animated-link"><h4 className="text-lg font-small text-white">Fitur</h4></a>
+              </div>
+              <div className="mx-4 py-4">
+                <a href="#harga-div" className="animated-link"><h4 className="text-lg font-small hover:cursor-pointer text-white">Harga</h4></a>
+              </div>
+              <div className="mx-4 py-4">
+                <a href="#tentang-div" className="animated-link"><h4 className="text-lg font-small hover:cursor-pointer text-white">Tentang Kami</h4></a>
+              </div>
+              <div className="mx-4 py-4   ">
+                <a href="#faq-div" className="animated-link"><h4 className="text-lg font-small hover:cursor-pointer text-white">FAQ</h4></a>
+              </div>
             </div>
           </div>
-        </div>
       )}
     </div>
   );

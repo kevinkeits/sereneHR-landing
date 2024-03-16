@@ -5,11 +5,11 @@ import Image2 from '../icon/close-circle-svgrepo-com.svg';
 const Pricing = () => {
   return (
     <div id="harga-div" class="">
-        <div class="container mx-auto pb-10 pt-20 lg:max-w-5xl">
+        <div class="container mx-auto py-20 lg:max-w-5xl">
             <h1 class="text-3xl font-bold text-center py-2 px-6">Harga</h1>
             <p class="text-lg font-medium text-center py-2 px-6">Perkuat keberhasilan bisnis Anda dengan solusi HRIS kami. Harga terjangkau, manfaat tak terbatas. Bergabunglah sekarang untuk transformasi yang lebih baik!</p>
         </div>
-        <div class="md:container md:mx-auto md:grid md:grid-cols-3 lg:max-w-5xl gap-2 py-10 px-6">
+        <div class="md:container md:mx-auto md:grid md:grid-cols-3 lg:max-w-5xl gap-2 px-6">
             {/* <!-- Paket Dasar --> */}
             <div class="border border-blue-500 rounded-lg my-2 max-w-md mx-auto">
                 <h1 class="bg-blue-500 text-white md:py-6 py-10 text-center text-2xl font-semibold rounded-t-lg">Paket Dasar</h1>

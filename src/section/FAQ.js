@@ -2,9 +2,9 @@ import React from 'react';
 
 const Faq = () => {
   return (
-    <div id="faq-div" class="md:flex md:gap-4 md:px-20 px-6 py-20 md:justify-center">
+    <div id="faq-div" class="md:flex md:gap-4 md:px-20 px-6 py-8 md:justify-center">
       <div class="w-56 text-center md:py-4 py-8 mx-auto md:mx-6">
-          <h1 class="text-xl md:text-3xl font-semibold">FAQ</h1>
+          <h1 class="text-2xl lg:text-3xl font-bold">FAQ</h1>
           <p class="text-lg md:text-lg">Frequently Ask Question</p>
       </div>
       <div class="md:max-w-xl py-2">
