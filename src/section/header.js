@@ -31,16 +31,16 @@ return (
         </div>
         <div className="md:flex md:flex-auto md:justify-center text-white hidden">
           <div id="fontHeader" className={`mx-6 hover:cursor-pointer ${scrolled ? 'text-black' : ''}`}>
-            <a href="#fitur-div" ><h4 className="text-md font-normal">Fitur</h4></a>
+            <a href="#fitur-div" ><h4 className="text-md font-semibold">Fitur</h4></a>
           </div>
           <div id="fontHeader" className={`mx-6 hover:cursor-pointer ${scrolled ? 'text-black' : ''}`}>
-            <a href="#harga-div" ><h4 className="text-md font-normal hover:cursor-pointer">Harga</h4></a>
+            <a href="#harga-div" ><h4 className="text-md font-semibold hover:cursor-pointer">Harga</h4></a>
           </div>
           <div id="fontHeader" className={`mx-6 hover:cursor-pointer ${scrolled ? 'text-black' : ''}`}>
-            <a href="#tentang-div" ><h4 className="text-md font-normal hover:cursor-pointer">Tentang Kami</h4></a>
+            <a href="#tentang-div" ><h4 className="text-md font-norsemiboldmal hover:cursor-pointer">Tentang Kami</h4></a>
           </div>
           <div id="fontHeader" className={`mx-6 hover:cursor-pointer ${scrolled ? 'text-black' : ''}`}>
-            <a href="#faq-div" ><h4 className="text-md font-normal hover:cursor-pointer">FAQ</h4></a>
+            <a href="#faq-div" ><h4 className="text-md font-semibold hover:cursor-pointer">FAQ</h4></a>
           </div>
         </div>
         <div className="md:flex text-white hidden">

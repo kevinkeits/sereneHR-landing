@@ -4,8 +4,8 @@ const Faq = () => {
   return (
     <div id="faq-div" class="md:flex md:gap-4 md:px-20 px-6 py-8 md:justify-center">
       <div class="w-56 text-center md:py-4 py-8 mx-auto md:mx-6">
-          <h1 class="text-2xl lg:text-3xl font-bold">FAQ</h1>
-          <p className='text-2xl m-2 font-bold'>Pertanyaan Umum</p>
+          <h1 class="text-3xl font-bold">FAQ</h1>
+          <p className='text-2xl m-2 font-semibold'>Pertanyaan Umum</p>
           <p className='m-2 text-lg'>Berikut adalah beberapa pertanyaan yang paling umum yang kami terima.</p>
       </div>
       <div class="md:max-w-xl py-2">
